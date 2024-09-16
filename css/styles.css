@@ -92,19 +92,21 @@ li::marker {
     padding: 40px 40px 0 !important;
     height: 1708px !important;
   }
+  .header{
+    margin-bottom: 10px !important;
+  }
   .header__image {
     border-radius: 16px;
     max-width: 740px !important;
     min-height: 300px !important;
   }
   .recipe {
-    margin-top: 41px !important;
-    padding: 0 !important;
-    padding-top: 2px !important;
+    padding: 31px 0 0 !important;
     font-size: 1rem !important;
+    margin-top: 0 !important;
   }
   .recipe-title {
-    margin-bottom: 27px !important;
+    font-weight: 400;
   }
   .recipe-description {
     margin-bottom: 30px !important;
