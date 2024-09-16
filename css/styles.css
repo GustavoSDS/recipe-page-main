@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 @font-face {
   font-family: "Young Serif";
   src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
@@ -48,27 +50,9 @@ p, ol li {
 
 hr {
   width: 100%;
-  height: 1px;
-  border: none;
   background-color: #E4E4E4;
 }
 
-@font-face {
-  font-family: "Young Serif";
-  src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
-}
-@font-face {
-  font-family: "Outfit";
-  src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
-}
-@font-face {
-  font-family: "Young Serif";
-  src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
-}
-@font-face {
-  font-family: "Outfit";
-  src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
-}
 .container {
   min-height: 100vh;
   width: 100%;
@@ -190,14 +174,6 @@ section:first-child {
   background-color: #F3E5D8;
 }
 
-@font-face {
-  font-family: "Young Serif";
-  src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
-}
-@font-face {
-  font-family: "Outfit";
-  src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
-}
 @media (min-width: 320px) {
   main {
     padding: 32px 8px;
@@ -223,13 +199,16 @@ section:first-child {
   main {
     height: 1318px;
     min-height: 1318px;
-    gap: 30px;
+    gap: 29px;
   }
   section:first-child {
     height: 119px;
   }
   .title {
     min-width: 100%;
+  }
+  .ingredients ul {
+    gap: 9px;
   }
   .instructions ol {
     padding-left: 10px;
