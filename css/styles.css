@@ -76,6 +76,12 @@ li::marker {
   h1,h2{
     line-height: 1 !important;
   }
+  h1 {
+    font-size: 40px !important;
+  }
+  h2 {
+    font-size: 28px !important;
+  }
   body {
     background-color: hsl(30, 54%, 90%) !important;
   }
@@ -115,20 +121,28 @@ li::marker {
     height: 177px !important;
     padding: 24px 27px !important;
   }
+  .preparation-time__title{
+    font-size: 20px !important;
+    margin-bottom: 16px !important;
+  }
   .preparation-time__list {
     max-width: 100% !important;
+    gap: 8.5px !important;
   }
   .ingredients{
     height: 208px !important;
   }
   .ingredients h2{
-    margin-bottom: 16px !important;
+    margin-bottom: 28px !important;
   }
   .ingredients ul{
-    gap: 6px !important;
+    gap: 9px !important;
+  }
+  .instructions h2{
+    margin-bottom: 28px !important;
   }
   .instructions ol{
-    gap: 8.8px !important;
+    gap: 8px !important;
   }
   .instructions li{
     padding-left: 10px !important;
