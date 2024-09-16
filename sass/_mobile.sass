@@ -1,0 +1,101 @@
+@use "variables" as v
+
+.container
+    min-height: 100vh
+    width: 100%
+    margin: 0 auto
+
+header
+    width: 100%
+    height: 171.05px
+
+main
+    width: 100%
+    padding: 39px v.$S-lg
+    gap: 31px
+    height: 100%
+    max-height: 1900px
+    height: 100%
+
+.title
+    font-size: v.$S-Title
+    font-family: v.$F-Heading
+    color: v.$C-DarkCharcoal
+    max-width: 300px
+
+.subtitle
+    font-size: v.$S-Subtitle-1
+    font-family: v.$F-Heading
+    color: v.$C-Nutmeg
+
+li::marker
+    color: v.$C-Nutmeg
+
+section:first-child
+    gap: v.$S-md
+
+.preparation-time
+    height: 190px
+    background-color: v.$C-DarkRaspberryLight
+    border-radius: 16px
+    padding: 22px v.$S-lg
+    gap: v.$S-sm
+
+    &__title
+        font-size: v.$S-Subtitle-2
+        color: v.$C-DarkRaspberry
+
+    &__list
+        padding-left: v.$S-md
+        gap: v.$S-sm
+        li
+            padding-left: v.$S-md
+            &::marker
+                color: v.$C-DarkRaspberry
+            span
+                font-weight: bold
+
+.ingredients
+    height: 235px
+    gap: 28px
+
+    ul
+        padding-left: v.$S-md
+        gap: v.$S-sm
+        li
+            padding-left: v.$S-md
+
+.instructions
+    gap: 27px
+    height: 669px
+
+    ol
+        padding-left: v.$S-md
+        gap: v.$S-xs
+        li
+            padding-left: v.$S-md
+            &::marker, & span
+                font-weight: bold
+
+.nutrition
+    gap: 27px
+    p
+        padding-right: v.$S-sm
+
+    &__table
+        width: 100%
+        border-collapse: collapse
+        text-align: left
+        & th, & td
+            padding: 10.3px 15px
+        & th
+            text-align: left
+            font-weight: normal
+        & td
+            font-weight: bold
+        & tr
+
+            &:not(:last-child)
+                border-bottom: 1px solid v.$C-LightGrey
+            &:hover
+                background-color: v.$C-Eggshell

@@ -1,0 +1,32 @@
+@use "variables" as v
+
+@media (min-width: v.$B-xs)
+    main
+        padding: v.$S-lg v.$S-xs
+
+@media (min-width: v.$B-lg)
+    body
+        background-color: v.$C-Eggshell
+    .container
+        margin: 123px auto
+        border-radius: 24px
+        max-width: 736px
+        padding: 40px
+        background-color: v.$C-White
+    header
+        height: 300px
+        margin-bottom: 10px
+        img
+            border-radius: 14px
+    main
+        height: 1318px
+        min-height: 1318px
+        gap: 30px
+    section:first-child
+        height: 119px    
+    .title
+        min-width: 100%
+    .instructions 
+        ol
+            padding-left: 10px
+            gap: 7.5px
