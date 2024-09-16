@@ -4,13 +4,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-weight: normal;
 }
 
 html {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -75,8 +73,14 @@ li::marker {
 }
 
 @media (min-width: 768px) {
+  h1,h2{
+    line-height: 1 !important;
+  }
   body {
     background-color: hsl(30, 54%, 90%) !important;
+  }
+  hr {
+    margin: 30px 0 !important;
   }
   .container {
     background-color: hsl(0, 0%, 100%) !important;
@@ -84,8 +88,9 @@ li::marker {
     border-radius: 26px;
     width: 100%;
     max-width: 740px !important;
-    margin: 120px auto !important;
+    margin: 123px auto 124px !important;
     padding: 40px 40px 0 !important;
+    height: 1708px !important;
   }
   .header__image {
     border-radius: 16px;
@@ -93,21 +98,58 @@ li::marker {
     min-height: 300px !important;
   }
   .recipe {
+    margin-top: 41px !important;
     padding: 0 !important;
+    padding-top: 2px !important;
     font-size: 1rem !important;
+  }
+  .recipe-title {
+    margin-bottom: 27px !important;
+  }
+  .recipe-description {
+    margin-bottom: 30px !important;
+  }
+  .preparation-time{
+    height: 177px !important;
+    padding: 24px 27px !important;
   }
   .preparation-time__list {
     max-width: 100% !important;
   }
+  .ingredients{
+    height: 208px !important;
+  }
+  .ingredients h2{
+    margin-bottom: 16px !important;
+  }
+  .ingredients ul{
+    gap: 6px !important;
+  }
+  .instructions ol{
+    gap: 8.8px !important;
+  }
+  .instructions li{
+    padding-left: 10px !important;
+  }
   .nutrition {
     width: 100%;
     margin: 0 auto;
+    padding: 2px 0 !important;
+  }
+  .nutrition h2{
+    margin-bottom: 27px !important;
+  }
+  .nutrition p{
+    margin-bottom: 27px !important;
   }
   .nutrition__description {
     margin: 20px 0 !important;
   }
   .nutrition__table {
-    margin: 0 !important;
+    height: 163px !important;
+  }
+  .nutrition__table-body{
+    gap: 8px !important;
   }
 }
 .header {
