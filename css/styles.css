@@ -199,6 +199,8 @@ section:first-child {
   main {
     height: 1318px;
     min-height: 1318px;
+    padding-left: 0;
+    padding-right: 0;
     gap: 29px;
   }
   section:first-child {
